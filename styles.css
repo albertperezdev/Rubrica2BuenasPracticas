@@ -1,3 +1,32 @@
 div{
     text-align: center;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.pelicula {
+    width: 45%;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pelicula img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.pelicula:hover {
+    transform: scale(1.005);
+}
+
+.pelicula:hover img {
+    transform: scale(1.03);
+}
